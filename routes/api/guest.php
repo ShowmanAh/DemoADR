@@ -13,5 +13,6 @@ Route::group(
         Route::get('/posts', \App\Posts\Actions\GetPostsAction::class);
         Route::get('/posts/{post}', \App\Posts\Actions\ShowPostAction::class);// implicit binding
         Route::post('/posts', \App\Posts\Actions\CreatePostAction::class);
+        Route::post('/posts/{post}', \App\Posts\Actions\UpdatePostAction::class);
           }
 );
