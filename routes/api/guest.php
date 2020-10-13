@@ -11,5 +11,7 @@ Route::group(
         Route::post('category/{category}', \App\Categories\Actions\UpdateCategoryAction::class);
         //================ posts ====================
         Route::get('/posts', \App\Posts\Actions\GetPostsAction::class);
+        Route::get('/posts/{post}', \App\Posts\Actions\ShowPostAction::class);// implicit binding
+        Route::post('/posts', \App\Posts\Actions\CreatePostAction::class);
           }
 );
