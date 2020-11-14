@@ -22,7 +22,21 @@
                     </li>
                     <li>Domain
                         <ul>
-                            <li>ListPostsAction.php</li>
+                            <li>Services
+                                <ul>
+                                    <li>ListPostsAction.php</li>
+                                </ul>
+                            </li>
+                            <li>Models
+                                <ul>
+                                    <li>ListPostsAction.php</li>
+                                </ul>
+                            </li>
+                            <li>Repositories
+                                <ul>
+                                    <li>ListPostsAction.php</li>
+                                </ul>
+                            </li>
                         </ul>
                     </li> 
                     <li>Responders
