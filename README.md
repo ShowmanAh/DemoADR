@@ -24,24 +24,24 @@
                         <ul>
                             <li>Services
                                 <ul>
-                                    <li>ListPostsAction.php</li>
+                                    <li>PostServices.php</li>
                                 </ul>
                             </li>
                             <li>Models
                                 <ul>
-                                    <li>ListPostsAction.php</li>
+                                    <li>Post.php</li>
                                 </ul>
                             </li>
                             <li>Repositories
                                 <ul>
-                                    <li>ListPostsAction.php</li>
+                                    <li>PostRepository.php</li>
                                 </ul>
                             </li>
                         </ul>
                     </li> 
                     <li>Responders
                         <ul>
-                            <li>ListPostsAction.php</li>
+                            <li>ListPostResponders.php</li>
                         </ul>
                     </li> 
                 </ul>
