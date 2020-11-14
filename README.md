@@ -1,4 +1,4 @@
-<H1>Adsoldiers System</H1>
+ <H1>Adsoldiers System</H1>
    <p>Adsoldiers System implemented by ADR architecture Pattern</p>
    <h2>Action Domain Responding (ADR)</h2>
    <blockquote>
@@ -15,40 +15,21 @@
         <ul>
             <li>Blog
                 <ul>
-                    <li>Actions</li>
-                    <ul>
-                        <li>ListPostsAction.php</li>
-                    </ul>
+                    <li>Actions
+                        <ul>
+                            <li>ListPostsAction.php</li>
+                        </ul>
+                    </li>
                     <li>Domain
                         <ul>
-                           
-                            <li>\Models
-                                <ul>
-                                    <li>Post.php</li>
-                                </ul>
-                            </li>
-                            <li>\services
-                                <ul>
-                                    <li>PostServices.php</li>
-                                </ul>
-                            </li>
-                            <li>/Repositories
-                                <ul>
-                                    <li>
-                                        PostRepository.php
-                                    </li>
-                                </ul>
-                            </li>
+                            <li>ListPostsAction.php</li>
                         </ul>
-                    </li>
+                    </li> 
                     <li>Responders
                         <ul>
-                            <li>
-                                ListPostsResponder.php
-                            </li>
-                           
+                            <li>ListPostsAction.php</li>
                         </ul>
-                    </li>
+                    </li> 
                 </ul>
             </li>
         </ul>
